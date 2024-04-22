@@ -4,4 +4,13 @@ img {
 }
 body {
   background-color: gray;
+  text-align: center;
+}
+footer {
+  background-color: white;
+  text-align: center;
+}
+header {
+  background-color: white;
+  text-align: center;
 }
