@@ -14,3 +14,29 @@ header {
   background-color: white;
   text-align: center;
 }
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
+li {
+  float: left;
+}
+li.dropdown {
+  display: inline-block;
+}
+.content {
+  display: none;
+  position: absolute;
+  z-index: 1;
+}
+.content a {
+  display: block;
+  text-align: left;
+  padding: 10px 10px;
+}
+.dropdown:hover .content {
+  display: block;
+}
+
