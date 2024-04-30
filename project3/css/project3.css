@@ -1,9 +1,21 @@
+@font-face {
+  font-family: myFont;
+  src: url(Roboto-Black.ttf);
+}
+html {
+  font-family: myFont;
+}
 button {
-  background: Aqua;
-  background: linear-gradient(90deg, Aqua 0%, Aquamarine 100%);
+  background-color: Aqua;
+  background-color: linear-gradient(90deg, Aqua 0%, Aquamarine 100%);
   filter: drop-shadow(10px, 5px);
+  border-radius: 10px;
+}
+button a {
+  color: black;
+  text-decoration: none;
 }
 body {
-  background: DarkGray;
-  float: center;
+  background-color: DarkGray;
+  text-align: center;
 }
