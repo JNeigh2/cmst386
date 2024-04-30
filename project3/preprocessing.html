@@ -2,6 +2,22 @@
 <html lang="en">
 <head>
 	<title>CMST 386 - Preprocessing</title>
+	<!-- When it came to doing preprocessing, I used the NodeJS software, which lets me compile my LESS file into a CSS file using a command prompt command. As this was my first time using LESS, I wanted to be very safe and simple with the elements of preprocessing I used.
+	Thus, I kept my use of it to two major elements, variables and operators to create the main elements of the button gradient and drop shadow, and I would do the rest in CSS
+	My LESS file, which only is part of the overall CSS:
+	@length: 5px;
+	@color1: Aqua;
+	@color2: Aquamarine;
+	@color3: DarkGray;
+	button {
+		background: @color1;
+		background: linear-gradient(90deg, @color1 0%, @color2 100%);
+		filter: drop-shadow(@length * 2, @length);
+	}
+	body {
+		background: @color3;
+		float: center;
+	}-->
 </head>
 <body>
 	<header>
