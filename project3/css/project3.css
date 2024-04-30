@@ -6,9 +6,9 @@ html {
   font-family: myFont;
 }
 button {
-  background-color: Aqua;
-  background-color: linear-gradient(90deg, Aqua 0%, Aquamarine 100%);
-  filter: drop-shadow(10px, 5px);
+  background: Aqua;
+  background: linear-gradient(90deg, Aqua 0%, Aquamarine 100%);
+  filter: drop-shadow(10px 5px);
   border-radius: 10px;
 }
 button a {
