@@ -19,3 +19,56 @@ body {
   background-color: DarkGray;
   text-align: center;
 }
+ul.hamburger {
+  list-style-type: none;
+  overflow: hidden;
+  float: left;
+}
+li a {
+  float: left;
+  text-align: center;
+  text-decoration: none;
+}
+.drop {
+    display: none;
+    position: absolute;
+    z-index: 1;
+}
+.drop a {
+  float: none;
+  display: block;
+  text-decoration: none;
+  padding: 16px;
+}
+.home:hover .drop{
+  display: block;
+}
+ul.breadcrumb {
+  padding: 10px 16px;
+  list-style: none;
+  background-color: #eee;
+}
+ul.breadcrumb li {
+  display: inline;
+  font-size: 18px;
+}
+ul.breadcrumb li+li:before {
+  padding: 8px;
+  color: black;
+  content: "/\00a0";
+}
+ul.breadcrumb li a {
+  color: #0275d8;
+  text-decoration: none;
+}
+@media (min-width: 400px) {
+	body {
+	background-color: Red;
+	}
+}
+@media (min-width: 800px) {
+	body {
+	background-color: LightGray;
+	}
+}
+
